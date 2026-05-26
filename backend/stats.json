@@ -1,0 +1,69 @@
+{
+  "accuracy": 0.6666666666666666,
+  "precision": 0.6694915254237288,
+  "recall": 0.9753086419753086,
+  "f1": 0.7939698492462312,
+  "roc_auc": 0.4350382128159906,
+  "total_samples": 614,
+  "approved_count": 405,
+  "rejected_count": 209,
+  "feature_names": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "Property_Area"
+  ],
+  "coefficients": [
+    -0.03893867507908169,
+    0.1409590028015374,
+    0.06224994162612223,
+    -0.055321889259549235,
+    0.19408278565614093,
+    -0.07788282203607766,
+    0.010319991897458101,
+    -0.04190895673619626,
+    0.2793431162530162,
+    -0.17178360558529315,
+    -0.005414518513962551
+  ],
+  "confusion": {
+    "tn": 3,
+    "fp": 39,
+    "fn": 2,
+    "tp": 79
+  },
+  "class_report": {
+    "Rejected": {
+      "precision": 0.6,
+      "recall": 0.07142857142857142,
+      "f1-score": 0.1276595744680851,
+      "support": 42.0
+    },
+    "Approved": {
+      "precision": 0.6694915254237288,
+      "recall": 0.9753086419753086,
+      "f1-score": 0.7939698492462312,
+      "support": 81.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.6347457627118644,
+      "recall": 0.5233686067019401,
+      "f1-score": 0.4608147118571581,
+      "support": 123.0
+    },
+    "weighted avg": {
+      "precision": 0.6457627118644068,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5664492676146691,
+      "support": 123.0
+    }
+  }
+}
