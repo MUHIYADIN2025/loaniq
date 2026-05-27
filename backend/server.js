@@ -22,7 +22,7 @@ const PORT   = process.env.PORT     || 3500;
 const ML_URL = process.env.ML_URL   || 'http://localhost:5001';
 const MONGO  = process.env.MONGO_URI || 'mongodb://localhost:27017/loaniq';
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 // MongoDB
